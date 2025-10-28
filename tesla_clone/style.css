@@ -1,0 +1,236 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height:56px;
+    
+    width:100vw;
+  
+}
+img{
+    padding-left:10px;
+    height:40px;
+
+}
+
+.main-nav-links{
+    width:430px;
+    align-items:center;
+    
+
+
+}
+
+ul{
+     width:430px;
+     display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+a{
+font-size:14px;
+   font-family:sans-serif;
+    color:black;
+    display:inline-block;
+     text-decoration: none;
+}
+.general{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    display:inline-block;
+    width:80px;
+    position:relative;
+    right:15px;
+}
+.help{
+    display:inline-block;
+   height:30px;
+}
+.world{
+    display:inline-block;
+ height:30px;
+}
+.profile{
+    display:inline-block;
+    height:30px;
+}
+svg{
+        height:24px;
+        width:24px;
+}
+a:hover{
+color:cornflowerblue;
+}
+.displayimg{
+    height:75vh;
+    width:100vw;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promo-Meet-Model-3-Desktop.jpg");
+    background-size:cover;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+   color:white;
+}
+.learn{
+    display:inline-block;
+    
+
+}
+.order{
+    display:inline-block;
+
+
+}
+ h1{
+   display:block;
+    color:white;
+    margin-top:50px;
+    margin-bottom:20px;
+    font-size:60px ;
+
+
+}
+ h4{
+    font-size: large;
+    color:white;
+    font-size:20px;
+    
+}
+.detail{
+    margin-top:20px;
+}
+.details button{
+    width:240px;
+    margin-right:7px;
+    padding:10px;
+    border-radius:10px;
+background-color: rgb(220, 48, 9);
+color:whitesmoke;
+font-size:20px;
+    transition: transform 150ms ease;
+}
+  button:hover{
+   transform: translateY(-3px);
+}
+footer{
+    display:flex;
+    height:60px;
+    width:100vw;
+    background-color: rgb(9, 127, 231);
+    border-radius: 10px;
+    position:absolute;
+    bottom:0;
+    align-items:center;
+    justify-content:center;
+    position:fixed;
+
+}
+.feedback button{
+    color: honeydew;
+    margin-left:20px;
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+
+}
+textarea{
+    background-color: honeydew;
+    padding:10px;
+    height:20px;
+    width:300px;
+    border-radius: 5px;
+    font-size:large;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-color: beige;
+
+}
+
+.feedback{
+    display:flex;
+    flex-direction:row;
+
+}
+.feedback p{
+    background-color: honeydew;
+    height:30px;
+    padding-top:10px;
+    border-radius: 5px;
+    position:relative;
+    top:10px;
+}
+.visual{
+    display:flex;
+    height:40px;
+    width:100px;
+    justify-content:center;
+align-items:center;
+background-color: rgb(22, 22, 22);
+border-radius: 5px;
+border-top-color: rgb(245, 245, 28);
+border-bottom-color: beige;
+border-left-color: beige;
+border-right: none;
+position:relative;
+top:12px;
+
+
+}
+
+svg{
+    color:black;
+}
+.seconddisplay1{
+    background-image:url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-X-Desktop-US-v2.png");
+    background-size:cover;
+    height:600px;
+    width:70vw;
+    margin-left:50px;
+    margin-top:50px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.seconddisplay1 p{
+font-size: larger;
+font-weight: 600;
+margin:10px;
+color:white;
+padding:10px;
+}
+.seconddisplay2{
+    background-image:url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-Y-Standard-Desktop-Dynamic-Asset.jpg");
+    background-size:cover;
+    height:600px;
+    width:70vw;
+    margin-left:50px;
+    margin-top:50px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.seconddisplay2 p{
+font-size: larger;
+font-weight: 600;
+margin:10px;
+color:white;
+padding:10px;
+}
+.secdisdiv{
+    display:flex;
+
+    overflow-x:auto;
+    scroll-snap-type: x mandatory;
+    
+}
+.secdisdiv::-webkit-scrollbar {
+  display: none;
+}
