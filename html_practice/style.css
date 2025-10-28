@@ -1,0 +1,121 @@
+/* 1. Global Reset and Typography */
+*{
+    padding:0;
+    
+    margin:0;
+    
+}
+header{
+    margin:0;
+}
+.nav{
+    margin:0;
+    background-color: black;
+height:45px;
+width:100vw;
+display:flex;
+align-content:center;
+justify-content: space-evenly;
+
+}
+.login {
+    color:rgb(248, 241, 241);
+    font-size: larger;
+    display:flex;
+    align-items:center;
+
+}
+.login a{
+    color:cadetblue;
+}
+.boxes{
+    display:flex;
+
+justify-items:center;
+flex-wrap:wrap;
+transform:translateY(-3px);
+
+
+}
+li{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    font-weight: 400;
+
+}
+ul{
+    display:flex;
+    justify-content:flex-start;
+    position:relative;
+    left:280px;
+    margin-top:20px;
+}
+  .full h1{
+    margin-top:40px;
+    position:relative;
+    left:280px;
+    font-weight:900;
+}
+.md{
+    height:300px;
+    width:475px;
+  
+    margin:10px;
+}
+.content{
+  position: relative;
+  left:280px;
+    
+    width:1100px;
+    height:80vh;
+}
+#b1{
+    background-color: #8EF39A;
+    margin:10px;border-radius: 15px;
+}
+#b2{
+    background-color: #94B5EC; margin:10px;border-radius: 15px;
+}
+#b3{
+    background-color: #FFD996; margin:10px;border-radius: 15px;
+}
+#b4{
+    background-color:  #FF9B96; margin:10px;border-radius: 15px;
+}
+.md li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(140, 115, 252);
+    font-size: large;
+
+}
+#b3 a{
+position:relative;
+right:290px;
+}
+P{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.help li:hover{
+background-color: rgb(236, 229, 229);
+transform:translatey(-5px);
+transition:transform 0.5s ease;
+}
+#b1:hover{
+    transform:translateY(-3px);
+    transition:0.5s,ease-in-out,0.1s ;
+   
+}
+#b2:hover{
+    transform:translateY(-3px);
+    transition:0.5s,ease-in-out,0.1s ;
+}
+#b3:hover{
+    transform:translateY(-3px);
+    transition:0.5s,ease-in-out,0.1s ;
+}
+#b4:hover{
+    transform:translateY(-3px);
+    transition:0.5s,ease-in-out,0.1s ;
+}
