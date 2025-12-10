@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>algorithm visualizer</title>
+</head>
+<body>
+    <div id="container">
+        <p>ALGORITHM VISUALIZER</p>
+    <div id="set">
+        <from>
+            <label for="algorithm">Choose an algorithm:</label>
+            <select id="algorithm">
+                <option value="bubble">Bubble Sort</option>
+                <option value="selection">Selection Sort</option>
+                <option value="insertion">Insertion Sort</option>
+               
+                <option value="quick">Quick Sort</option>
+               
+                </select>
+
+                
+        </from>
+         <label for="sizeRange">Array Size:</label>
+            <input type="range"  id="sizeRangearray" min="5" max="100" value="50"/>
+            <span id="arraySize"></span>
+          
+             <label for="sizeRange">speed:</label>
+            <input type="range"  id="sizeRangespeed" min="5" max="100" value="50"/>
+            <span id="speedValue"></span>
+       
+                
+            
+
+
+    </div>
+    <div id="buttons">
+        <button id="array">New array</button>
+        <button id="sort">sort</button>
+    </div>
+
+    <div id="arrayContainer"></div>
+    <div id="stats">
+        
+        <p id="comparisions"></p>
+        <p id="swaps"></p>
+        <p id="time"></p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
